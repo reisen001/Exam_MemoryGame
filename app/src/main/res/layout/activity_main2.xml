@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp" android:paddingRight="10dp"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_stage"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView_now"
+            android:layout_width="match_parent"
+            android:layout_height="44sp"
+            android:layout_marginTop="116dp"
+            android:gravity="center_horizontal"
+            android:text="TextView2"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            app:srcCompat="@drawable/image_non" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
